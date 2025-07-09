@@ -12,12 +12,12 @@ var createScene = async function () {
     var gs;
 
     const models = [
-        { file: "model1.splat", radius: 6, alpha: -0.8 },
-        { file: "model2.splat", radius: 5, alpha: 1.5 },
-        { file: "model3.splat", radius: 7, alpha: 2.2 },
+        { file: "gs_Fire_Pit.splat", radius: 6, alpha: -0.8 },
+        { file: "newGSplat.splat", radius: 5, alpha: 1.5 },
+        { file: "newGSplat.splat", radius: 7, alpha: 2.2 },
     ];
 
-    const baseURL = "https://your-host.com/splats/";
+    //const baseURL = "https://your-host.com/splats/";
     const baseURL = "./models/";
 
 
